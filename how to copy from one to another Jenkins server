@@ -1,0 +1,24 @@
+if u want to copy 1 to 2 
+
+
+from1
+--------------------------------------------------------------------------------------------
+cd /vars/lib/jenkins/jobs/
+ls
+u have so many jobs
+
+if u want to select folder with all jobs
+---------------------------------------------------------------------------------------------------------------------
+
+scp -r shivajobs username@2ip:desination of second jenkins server path
+scp -r shivajobs root@10.2.3.45:/vars/lib/jenkins/jobs/
+
+if u want to select only folder not node builds
+--------------------------------------------------------------------------------------------
+scp -r config.xml root@10.2.3.45:/vars/lib/jenkins/jobs/
+
+
+got to 2jenkins
+----------------------------
+manage jenkins and click RELOAD CONFIGURATION FROM DICK
+now go and check it will stay there
